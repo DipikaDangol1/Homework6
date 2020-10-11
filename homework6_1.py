@@ -7,3 +7,6 @@ if os.path.exists(path):
 	#file exists
 else:
 	print("False")
+monitor_path="C:\Python\Homework6\Test1.txt"
+isFile=os.path.isfile(monitor_path)
+print(isFile)
